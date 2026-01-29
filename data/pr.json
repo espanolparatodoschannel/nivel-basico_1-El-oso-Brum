@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "titulo_historia": "Análise Linguística",
+    "autor": "Usuario",
+    "fecha": "2026-01-29"
+  },
+  "titulo": "Análise Linguística",
+  "conectores_logicos": [
+    {
+      "termino": "Quando",
+      "explicacion": "Conector temporal que introduz uma ação ou situação que ocorre em um momento específico.",
+      "ejemplo": "\"Quando o outono ficou frio, a Mamãe Ursa preparou a caverna.\""
+    },
+    {
+      "termino": "Mas",
+      "explicacion": "Conector de contraste ou oposição que introduz uma ideia que contradiz ou limita o que foi dito anteriormente.",
+      "ejemplo": "\"Mas, Mamãe! Se eu dormir, vou perder os últimos flocos de neve!\""
+    },
+    {
+      "termino": "Enquanto",
+      "explicacion": "Conector temporal que indica que duas ações ocorrem ao mesmo tempo.",
+      "ejemplo": "\"Enquanto você dorme, seu corpo vai ficar forte.\""
+    },
+    {
+      "termino": "Depois",
+      "explicacion": "Conector temporal que indica posterioridade no tempo ou sequência de ações.",
+      "ejemplo": "\"Brum continuou caminhando. Depois, encontrou um pequeno Coelho.\""
+    },
+    {
+      "termino": "Finalmente",
+      "explicacion": "Conector que marca o último passo ou a conclusão de uma sequência de eventos.",
+      "ejemplo": "\"Finalmente, uma manhã ele sentiu uma coceirinha.\""
+    },
+    {
+      "termino": "E assim",
+      "explicacion": "Conector conclusivo que resume ou apresenta a consequência do que foi narrado.",
+      "ejemplo": "\"E assim, Brum, o ursinho, se tornou o campeão das sonecas.\""
+    }
+  ],
+  "verbos_y_adjetivos": [
+    {
+      "termino": "explorar (verbo)",
+      "explicacion": "Verbo que significa viajar por um lugar para descobri-lo ou conhecê-lo.",
+      "ejemplo": "\"Brum adorava explorar.\""
+    },
+    {
+      "termino": "vibrantes (adjetivo)",
+      "explicacion": "Adjetivo que descreve algo cheio de energia, cor ou vida.",
+      "ejemplo": "\"em uma floresta de cores vibrantes\""
+    },
+    {
+      "termino": "exausto (adjetivo)",
+      "explicacion": "Adjetivo que descreve um estado de cansaço extremo.",
+      "ejemplo": "\"Brum sentou-se, exausto.\""
+    },
+    {
+      "termino": "aconchegou-se (verbo)",
+      "explicacion": "Verbo que significa colocar-se em uma posição confortável e recolhida, normalmente para dormir ou descansar.",
+      "ejemplo": "\"Ele se aconchegou junto à Mamãe Ursa.\""
+    },
+    {
+      "termino": "maravilhosos (adjetivo)",
+      "explicacion": "Adjetivo que descreve algo extraordinariamente bom ou que causa admiração.",
+      "ejemplo": "\"ele teve sonhos maravilhosos\""
+    }
+  ],
+  "sustantivos_clave": [
+    {
+      "termino": "hibernação",
+      "explicacion": "Estado de letargia profunda no qual alguns animais passam o inverno.",
+      "ejemplo": "\"é hora de você se preparar para a hibernação.\""
+    },
+    {
+      "termino": "aventuras",
+      "explicacion": "Experiências emocionantes, arriscadas ou incomuns.",
+      "ejemplo": "\"você vai sonhar com as aventuras da primavera.\""
+    },
+    {
+      "termino": "energia",
+      "explicacion": "Capacidade de realizar um trabalho ou atividade; vitalidade.",
+      "ejemplo": "\"O descanso é o alimento da energia.\""
+    },
+    {
+      "termino": "caverna",
+      "explicacion": "Cavidade natural ou artificial na terra, frequentemente usada como abrigo.",
+      "ejemplo": "\"A Mamãe Ursa preparou a caverna para a soneca de inverno.\""
+    },
+    {
+      "termino": "primavera",
+      "explicacion": "Estação do ano que segue o inverno, caracterizada pelo renascimento da natureza.",
+      "ejemplo": "\"Bem-vindo à primavera!\""
+    }
+  ],
+  "expresiones_idiomaticas": [
+    {
+      "termino": "franziu o nariz",
+      "explicacion": "Expressão que descreve um gesto facial de desagrado, dúvida ou desaprovação.",
+      "ejemplo": "\"Brum franziu o nariz.\""
+    },
+    {
+      "termino": "ficou com cócegas",
+      "explicacion": "Expressão que indica uma sensação leve e repetitiva que provoca uma reação involuntária, como rir ou bocejar.",
+      "ejemplo": "\"sentiu um grande bocejo que lhe fez cócegas no nariz.\""
+    },
+    {
+      "termino": "com a voz pastosa",
+      "explicacion": "Expressão que descreve uma voz pouco clara, lenta ou grossa, típica do cansaço ou sono.",
+      "ejemplo": "\"perguntou Brum, com a voz pastosa.\""
+    }
+  ],
+  "funciones_comunicativas": [
+    {
+      "termino": "Expressar desejo ou negação",
+      "explicacion": "Função para manifestar o que se quer ou, pelo contrário, o que se rejeita.",
+      "ejemplo": "\"Não quero hibernar!\" / \"Queria ver a floresta.\""
+    },
+    {
+      "termino": "Dar conselhos ou explicações",
+      "explicacion": "Função para oferecer orientação, instruções ou esclarecer conceitos.",
+      "ejemplo": "\"A hibernação não é só dormir. É uma espera mágica.\" / \"O descanso é o alimento da energia.\""
+    },
+    {
+      "termino": "Descrever sensações e estados físicos",
+      "explicacion": "Função para expressar como o corpo ou a mente se sentem.",
+      "ejemplo": "\"Seu corpo estava pesado.\" / \"Ele se sentia tão forte e cheio de energia!\""
+    }
+  ],
+  "palabras_clave": [
+    "floresta",
+    "ursinho",
+    "estrelas",
+    "outono",
+    "frio",
+    "caverna",
+    "inverno",
+    "neve",
+    "Lua",
+    "explorador",
+    "sonhos",
+    "noturno",
+    "descanso",
+    "cansado",
+    "primavera",
+    "verde",
+    "fresco",
+    "força",
+    "sono",
+    "aventuras"
+  ]
+}

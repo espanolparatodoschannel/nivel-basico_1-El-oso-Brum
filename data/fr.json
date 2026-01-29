@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "titulo_historia": "Analyse Linguistique",
+    "autor": "Usuario",
+    "fecha": "2026-01-29"
+  },
+  "titulo": "Analyse Linguistique",
+  "conectores_logicos": [
+    {
+      "termino": "Quand",
+      "explicacion": "Connecteur temporel qui introduit une action ou une situation se produisant à un moment spécifique.",
+      "ejemplo": "\"Quand l'automne devint froid, Maman Ourse prépara la tanière.\""
+    },
+    {
+      "termino": "Mais",
+      "explicacion": "Connecteur de contraste ou d'opposition qui introduit une idée contredisant ou limitant ce qui a été dit précédemment.",
+      "ejemplo": "\"Mais, Maman ! Si je dors, je vais rater les derniers flocons de neige !\""
+    },
+    {
+      "termino": "Pendant que",
+      "explicacion": "Connecteur temporel qui indique que deux actions se produisent en même temps.",
+      "ejemplo": "\"Pendant que tu dors, ton corps deviendra fort.\""
+    },
+    {
+      "termino": "Puis",
+      "explicacion": "Connecteur temporel qui indique une postériorité dans le temps ou une séquence d'actions.",
+      "ejemplo": "\"Brum continua de marcher. Puis il rencontra un petit Lapin.\""
+    },
+    {
+      "termino": "Finalement",
+      "explicacion": "Connecteur qui marque la dernière étape ou la conclusion d'une séquence d'événements.",
+      "ejemplo": "\"Finalement, un matin, il sentit un picotement.\""
+    },
+    {
+      "termino": "Et ainsi",
+      "explicacion": "Connecteur conclusif qui résume ou présente la conséquence de ce qui a été raconté.",
+      "ejemplo": "\"Et ainsi, Brum l'ourson devint le champion des siestes.\""
+    }
+  ],
+  "verbos_y_adjetivos": [
+    {
+      "termino": "explorer (verbe)",
+      "explicacion": "Verbe qui signifie voyager dans un lieu pour le découvrir ou le connaître.",
+      "ejemplo": "\"Brum adorait explorer.\""
+    },
+    {
+      "termino": "vibrants (adjectif)",
+      "explicacion": "Adjectif qui décrit quelque chose de plein d'énergie, de couleur ou de vie.",
+      "ejemplo": "\"dans une forêt aux couleurs vibrantes\""
+    },
+    {
+      "termino": "épuisé (adjectif)",
+      "explicacion": "Adjectif qui décrit un état de fatigue extrême.",
+      "ejemplo": "\"Brum s'assit, épuisé.\""
+    },
+    {
+      "termino": "se blottit (verbe)",
+      "explicacion": "Verbe qui signifie se mettre dans une position confortable et recroquevillée, normalement pour dormir ou se reposer.",
+      "ejemplo": "\"Il se blottit contre Maman Ourse.\""
+    },
+    {
+      "termino": "merveilleux (adjectif)",
+      "explicacion": "Adjectif qui décrit quelque chose d'extraordinairement bon ou qui suscite l'admiration.",
+      "ejemplo": "\"il eut des rêves merveilleux\""
+    }
+  ],
+  "sustantivos_clave": [
+    {
+      "termino": "hibernation",
+      "explicacion": "État de léthargie profonde dans lequel certains animaux passent l'hiver.",
+      "ejemplo": "\"il est temps que tu te prépares pour l'hibernation.\""
+    },
+    {
+      "termino": "aventures",
+      "explicacion": "Expériences excitantes, risquées ou inhabituelles.",
+      "ejemplo": "\"tu rêveras des aventures du printemps.\""
+    },
+    {
+      "termino": "énergie",
+      "explicacion": "Capacité à effectuer un travail ou une activité ; vitalité.",
+      "ejemplo": "\"Le repos est la nourriture de l'énergie.\""
+    },
+    {
+      "termino": "tanière",
+      "explicacion": "Cavité naturelle ou artificielle dans la terre, souvent utilisée comme abri.",
+      "ejemplo": "\"Maman Ourse prépara la tanière pour la sieste d'hiver.\""
+    },
+    {
+      "termino": "printemps",
+      "explicacion": "Saison de l'année qui suit l'hiver, caractérisée par le renouveau de la nature.",
+      "ejemplo": "\"Bienvenue au printemps !\""
+    }
+  ],
+  "expresiones_idiomaticas": [
+    {
+      "termino": "fronça le nez",
+      "explicacion": "Expression qui décrit une expression faciale de déplaisir, de doute ou de désapprobation.",
+      "ejemplo": "\"Brum fronça le nez.\""
+    },
+    {
+      "termino": "lui chatouilla",
+      "explicacion": "Expression qui indique une sensation légère et répétitive provoquant une réaction involontaire, comme rire ou bâiller.",
+      "ejemplo": "\"sentit un grand bâillement qui lui chatouilla le nez.\""
+    },
+    {
+      "termino": "d'une voix pâteuse",
+      "explicacion": "Expression qui décrit une voix peu claire, lente ou épaisse, typique de la fatigue ou du sommeil.",
+      "ejemplo": "\"demanda Brum, d'une voix pâteuse.\""
+    }
+  ],
+  "funciones_comunicativas": [
+    {
+      "termino": "Exprimer un désir ou un refus",
+      "explicacion": "Fonction pour manifester ce que l'on veut ou, au contraire, ce que l'on rejette.",
+      "ejemplo": "\"Je ne veux pas hiberner !\" / \"Il voulait voir la forêt.\""
+    },
+    {
+      "termino": "Donner des conseils ou des explications",
+      "explicacion": "Fonction pour offrir des orientations, des instructions ou clarifier des concepts.",
+      "ejemplo": "\"L'hibernation n'est pas seulement dormir. C'est une attente magique.\" / \"Le repos est la nourriture de l'énergie.\""
+    },
+    {
+      "termino": "Décrire des sensations et des états physiques",
+      "explicacion": "Fonction pour exprimer comment le corps ou l'esprit se sent.",
+      "ejemplo": "\"Son corps se sentait lourd.\" / \"Il se sentait si fort et plein d'énergie !\""
+    }
+  ],
+  "palabras_clave": [
+    "forêt",
+    "ourson",
+    "étoiles",
+    "automne",
+    "froid",
+    "tanière",
+    "hiver",
+    "neige",
+    "Lune",
+    "explorateur",
+    "rêves",
+    "nocturne",
+    "repos",
+    "fatigué",
+    "printemps",
+    "vert",
+    "frais",
+    "force",
+    "sommeil",
+    "aventures"
+  ]
+}

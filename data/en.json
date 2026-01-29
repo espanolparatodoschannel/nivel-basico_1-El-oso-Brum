@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "titulo_historia": "Linguistic Analysis",
+    "autor": "Usuario",
+    "fecha": "2026-01-29"
+  },
+  "titulo": "Linguistic Analysis",
+  "conectores_logicos": [
+    {
+      "termino": "When",
+      "explicacion": "Temporal connector that introduces an action or situation occurring at a specific time.",
+      "ejemplo": "\"When autumn turned cold, Mama Bear prepared the den.\""
+    },
+    {
+      "termino": "But",
+      "explicacion": "Contrast or opposition connector that introduces an idea that contradicts or limits what was previously said.",
+      "ejemplo": "\"But, Mama! If I sleep, I'll miss the last snowflakes!\""
+    },
+    {
+      "termino": "While",
+      "explicacion": "Temporal connector indicating that two actions occur at the same time.",
+      "ejemplo": "\"While you sleep, your body will grow strong.\""
+    },
+    {
+      "termino": "Then",
+      "explicacion": "Temporal connector indicating later time or sequence of actions.",
+      "ejemplo": "\"Brum kept walking. Then he met a little Rabbit.\""
+    },
+    {
+      "termino": "Finally",
+      "explicacion": "Connector marking the last step or conclusion of a sequence of events.",
+      "ejemplo": "\"Finally, one morning he felt a tickle.\""
+    },
+    {
+      "termino": "And so",
+      "explicacion": "Conclusive connector that summarizes or presents the consequence of what was narrated.",
+      "ejemplo": "\"And so, Brum the bear cub became the champion of naps.\""
+    }
+  ],
+  "verbos_y_adjetivos": [
+    {
+      "termino": "explore (verb)",
+      "explicacion": "Verb meaning to travel through a place to discover or get to know it.",
+      "ejemplo": "\"Brum loved to explore.\""
+    },
+    {
+      "termino": "vibrant (adjective)",
+      "explicacion": "Adjective describing something full of energy, color, or life.",
+      "ejemplo": "\"in a forest of vibrant colors\""
+    },
+    {
+      "termino": "exhausted (adjective)",
+      "explicacion": "Adjective describing a state of extreme tiredness.",
+      "ejemplo": "\"Brum sat down, exhausted.\""
+    },
+    {
+      "termino": "snuggled (verb)",
+      "explicacion": "Verb meaning to get into a comfortable, curled-up position, usually to sleep or rest.",
+      "ejemplo": "\"He snuggled up next to Mama Bear.\""
+    },
+    {
+      "termino": "wonderful (adjective)",
+      "explicacion": "Adjective describing something extraordinarily good or that causes admiration.",
+      "ejemplo": "\"he had wonderful dreams\""
+    }
+  ],
+  "sustantivos_clave": [
+    {
+      "termino": "hibernation",
+      "explicacion": "State of deep lethargy in which some animals spend the winter.",
+      "ejemplo": "\"it's time for you to prepare for hibernation.\""
+    },
+    {
+      "termino": "adventures",
+      "explicacion": "Exciting, risky, or unusual experiences.",
+      "ejemplo": "\"you will dream of spring adventures.\""
+    },
+    {
+      "termino": "energy",
+      "explicacion": "Capacity to perform work or activity; vitality.",
+      "ejemplo": "\"Rest is the food of energy.\""
+    },
+    {
+      "termino": "den",
+      "explicacion": "Natural or artificial cavity in the ground, often used as a shelter.",
+      "ejemplo": "\"Mama Bear prepared the den for the winter nap.\""
+    },
+    {
+      "termino": "spring",
+      "explicacion": "Season of the year following winter, characterized by the rebirth of nature.",
+      "ejemplo": "\"Welcome to spring!\""
+    }
+  ],
+  "expresiones_idiomaticas": [
+    {
+      "termino": "wrinkled his nose",
+      "explicacion": "Expression describing a facial gesture of displeasure, doubt, or disapproval.",
+      "ejemplo": "\"Brum wrinkled his nose.\""
+    },
+    {
+      "termino": "tickled him",
+      "explicacion": "Expression indicating a light, repetitive sensation that provokes an involuntary reaction, like laughing or yawning.",
+      "ejemplo": "\"felt a big yawn that tickled his nose.\""
+    },
+    {
+      "termino": "with a thick voice",
+      "explicacion": "Expression describing an unclear, slow, or thick voice, typical of tiredness or sleepiness.",
+      "ejemplo": "\"asked Brum, with a thick voice.\""
+    }
+  ],
+  "funciones_comunicativas": [
+    {
+      "termino": "Express desire or refusal",
+      "explicacion": "Function to state what one wants or, conversely, what one rejects.",
+      "ejemplo": "\"I don't want to hibernate!\" / \"He wanted to see the forest.\""
+    },
+    {
+      "termino": "Give advice or explanations",
+      "explicacion": "Function to offer guidance, instructions, or clarify concepts.",
+      "ejemplo": "\"Hibernation isn't just sleeping. It's a magical wait.\" / \"Rest is the food of energy.\""
+    },
+    {
+      "termino": "Describe sensations and physical states",
+      "explicacion": "Function to express how the body or mind feels.",
+      "ejemplo": "\"His body felt heavy.\" / \"He felt so strong and full of energy!\""
+    }
+  ],
+  "palabras_clave": [
+    "forest",
+    "bear cub",
+    "stars",
+    "autumn",
+    "cold",
+    "den",
+    "winter",
+    "snow",
+    "Moon",
+    "explorer",
+    "dreams",
+    "nocturnal",
+    "rest",
+    "tired",
+    "spring",
+    "green",
+    "fresh",
+    "strength",
+    "sleep",
+    "adventures"
+  ]
+}

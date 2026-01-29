@@ -1,0 +1,155 @@
+/* Responsive Adjustments */
+
+/* Tablet & Up */
+@media (min-width: 768px) {
+    :root {
+        --text-base: 1.125rem;
+    }
+
+    /* Stack vertically */
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: var(--text-2xl);
+    }
+}
+
+/* Desktop & Up */
+@media (min-width: 1024px) {
+    .app-container {
+        padding: var(--space-6);
+    }
+
+    h1 {
+        font-size: var(--text-3xl);
+    }
+
+    .logo-img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+        /* Maintain vertical stack */
+        gap: var(--space-8);
+        max-width: 900px;
+        /* Limit width for better readability on wide screens */
+        margin: 0 auto;
+    }
+}
+
+/* Mobile (All sizes below tablet) */
+@media (max-width: 767px) {
+    :root {
+        --text-base: 0.875rem;
+    }
+
+    /* Container adjustments for full-width header */
+    .app-container {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        /* Keep bottom padding */
+    }
+
+    /* Re-add padding to content since container lost it */
+    .content-grid {
+        padding: 0 var(--space-4);
+    }
+
+    header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: var(--space-2);
+        padding: var(--space-3);
+        justify-content: flex-start;
+        /* Revert to start */
+        position: sticky;
+        /* Helper reminder */
+        /* Full width sticky adjustments */
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        top: 0;
+        /* Ensures it sticks to the very top */
+    }
+
+    /* Logo - Keep size constrained */
+    .logo-link {
+        flex: 0 0 auto;
+        position: relative;
+        z-index: 2;
+        /* Ensure logo is clickable above title if overlap */
+    }
+
+    .logo-img {
+        height: 65px;
+        /* Increased from 50px */
+        width: 65px;
+    }
+
+    /* Title - Takes remaining space next to logo */
+    header h1 {
+        flex: 1;
+        /* Restore flex behavior */
+        position: static;
+        /* Reset absolute */
+        text-align: center;
+        margin: 0 0 0 var(--space-2);
+
+        /* Increase Font Size Further */
+        font-size: 1.5rem;
+        /* Increased from 1.35rem */
+        line-height: normal;
+        /* Reset line-height */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        pointer-events: auto;
+    }
+
+    /* Selector - Full width on new line */
+    #selector-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: var(--space-2);
+        padding-top: var(--space-2);
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        /* Subtle separator */
+    }
+
+    #language-selector {
+        width: 100%;
+        /* Make selector full width for easier touch */
+        max-width: 300px;
+    }
+
+    .accordion-header {
+        font-size: var(--text-base);
+    }
+
+
+}
+
+/* Touch Targets for Mobile */
+@media (hover: none) and (pointer: coarse) {
+
+    .accordion-header,
+    #language-selector,
+    .btn-primary {
+        min-height: 48px;
+    }
+
+    .item-card {
+        padding: var(--space-2) 0;
+    }
+}

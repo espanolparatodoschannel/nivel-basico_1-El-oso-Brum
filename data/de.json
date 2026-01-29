@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "titulo_historia": "Sprachanalyse",
+    "autor": "Usuario",
+    "fecha": "2026-01-29"
+  },
+  "titulo": "Sprachanalyse",
+  "conectores_logicos": [
+    {
+      "termino": "Als",
+      "explicacion": "Temporale Konjunktion, die eine Handlung oder Situation einführt, die zu einem bestimmten Zeitpunkt geschieht.",
+      "ejemplo": "\"Als der Herbst kalt wurde, bereitete Mama Bär die Höhle vor.\""
+    },
+    {
+      "termino": "Aber",
+      "explicacion": "Adversative Konjunktion, die einen Gegensatz oder Widerspruch zum Vorhergesagten einleitet.",
+      "ejemplo": "\"Aber, Mama! Wenn ich schlafe, verpasse ich die letzten Schneeflocken!\""
+    },
+    {
+      "termino": "Während",
+      "explicacion": "Temporale Konjunktion, die anzeigt, dass zwei Handlungen gleichzeitig ablaufen.",
+      "ejemplo": "\"Während du schläfst, wird dein Körper stark wachsen.\""
+    },
+    {
+      "termino": "Dann",
+      "explicacion": "Temporale Konjunktion, die Nachzeitigkeit oder eine Abfolge von Handlungen anzeigt.",
+      "ejemplo": "\"Brum lief weiter. Dann traf er auf einen kleinen Hasen.\""
+    },
+    {
+      "termino": "Schließlich",
+      "explicacion": "Konjunktion, die den letzten Schritt oder den Abschluss einer Ereignisfolge markiert.",
+      "ejemplo": "\"Schließlich, eines Morgens, spürte er ein Kribbeln.\""
+    },
+    {
+      "termino": "Und so",
+      "explicacion": "Abschließende Konjunktion, die das Erzählte zusammenfasst oder die Konsequenz daraus präsentiert.",
+      "ejemplo": "\"Und so wurde Brum, der Bärenjunge, zum Meister des Nickerchens.\""
+    }
+  ],
+  "verbos_y_adjetivos": [
+    {
+      "termino": "erkunden (Verb)",
+      "explicacion": "Verb, das bedeutet, einen Ort zu bereisen, um ihn zu entdecken oder kennenzulernen.",
+      "ejemplo": "\"Brum liebte es zu erkunden.\""
+    },
+    {
+      "termino": "vibrierend (Adjektiv)",
+      "explicacion": "Adjektiv, das etwas beschreibt, das voller Energie, Farbe oder Leben ist.",
+      "ejemplo": "\"in einem Wald mit vibrierenden Farben\""
+    },
+    {
+      "termino": "erschöpft (Adjektiv)",
+      "explicacion": "Adjektiv, das einen Zustand extremer Müdigkeit beschreibt.",
+      "ejemplo": "\"Brum setzte sich, erschöpft.\""
+    },
+    {
+      "termino": "kuschelte sich (Verb)",
+      "explicacion": "Verb, das bedeutet, sich in eine bequeme und zusammengerollte Position zu begeben, typischerweise zum Schlafen oder Ausruhen.",
+      "ejemplo": "\"Er kuschelte sich an Mama Bär.\""
+    },
+    {
+      "termino": "wunderbar (Adjektiv)",
+      "explicacion": "Adjektiv, das etwas außergewöhnlich Gutes oder Bewundernswertes beschreibt.",
+      "ejemplo": "\"er hatte wunderbare Träume\""
+    }
+  ],
+  "sustantivos_clave": [
+    {
+      "termino": "Winterschlaf",
+      "explicacion": "Zustand des tiefen Schlafs, in dem einige Tiere den Winter verbringen.",
+      "ejemplo": "\"es ist Zeit, dass du dich auf den Winterschlaf vorbereitest.\""
+    },
+    {
+      "termino": "Abenteuer",
+      "explicacion": "Aufregende, riskante oder ungewöhnliche Erfahrungen.",
+      "ejemplo": "\"du wirst von den Abenteuern des Frühlings träumen.\""
+    },
+    {
+      "termino": "Energie",
+      "explicacion": "Fähigkeit, Arbeit oder Aktivität zu verrichten; Vitalität.",
+      "ejemplo": "\"Ruhe ist die Nahrung der Energie.\""
+    },
+    {
+      "termino": "Höhle",
+      "explicacion": "Natürliche oder künstliche Hohlraum in der Erde, oft als Unterschlupf genutzt.",
+      "ejemplo": "\"Mama Bär bereitete die Höhle für den Winterschlaf vor.\""
+    },
+    {
+      "termino": "Frühling",
+      "explicacion": "Jahreszeit, die auf den Winter folgt, gekennzeichnet durch das Wiedererwachen der Natur.",
+      "ejemplo": "\"Willkommen im Frühling!\""
+    }
+  ],
+  "expresiones_idiomaticas": [
+    {
+      "termino": "rumpfte die Nase",
+      "explicacion": "Redewendung, die eine Gesichtsbewegung des Missfallens, Zweifels oder der Missbilligung beschreibt.",
+      "ejemplo": "\"Brum rumpfte die Nase.\""
+    },
+    {
+      "termino": "kitzelte ihn",
+      "explicacion": "Redewendung, die ein leichtes, wiederholtes Gefühl bezeichnet, das eine unwillkürliche Reaktion wie Lachen oder Gähnen hervorruft.",
+      "ejemplo": "\"spürte er ein großes Gähnen, das ihn in der Nase kitzelte.\""
+    },
+    {
+      "termino": "mit einer belegten Stimme",
+      "explicacion": "Redewendung, die eine undeutliche, langsame oder schwere Stimme beschreibt, typisch für Müdigkeit oder Schläfrigkeit.",
+      "ejemplo": "\"fragte Brum mit einer belegten Stimme.\""
+    }
+  ],
+  "funciones_comunicativas": [
+    {
+      "termino": "Wunsch oder Ablehnung ausdrücken",
+      "explicacion": "Funktion, um zu äußern, was man möchte oder im Gegenteil ablehnt.",
+      "ejemplo": "\"Ich will nicht Winterschlaf halten!\" / \"Er wollte den Wald sehen.\""
+    },
+    {
+      "termino": "Ratschläge oder Erklärungen geben",
+      "explicacion": "Funktion, um Orientierung, Anweisungen zu bieten oder Konzepte zu klären.",
+      "ejemplo": "\"Winterschlaf ist nicht nur Schlafen. Es ist ein magisches Warten.\" / \"Ruhe ist die Nahrung der Energie.\""
+    },
+    {
+      "termino": "Empfindungen und körperliche Zustände beschreiben",
+      "explicacion": "Funktion, um auszudrücken, wie sich Körper oder Geist anfühlen.",
+      "ejemplo": "\"Sein Körper fühlte sich schwer an.\" / \"Er fühlte sich so stark und voller Energie!\""
+    }
+  ],
+  "palabras_clave": [
+    "Wald",
+    "Bärenjunge",
+    "Sterne",
+    "Herbst",
+    "kalt",
+    "Höhle",
+    "Winter",
+    "Schnee",
+    "Mond",
+    "Entdecker",
+    "Träume",
+    "nächtlich",
+    "Ruhe",
+    "müde",
+    "Frühling",
+    "grün",
+    "frisch",
+    "Kraft",
+    "Schlaf",
+    "Abenteuer"
+  ]
+}

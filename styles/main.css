@@ -1,0 +1,565 @@
+/* Main Styles */
+
+body {
+    background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+    overflow-x: hidden;
+}
+
+/* Background Animation */
+.background-globes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.globe {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+}
+
+.globe-1 {
+    width: 400px;
+    height: 400px;
+    background: #6a1b9a;
+    top: -10%;
+    left: -10%;
+    animation: float 20s infinite ease-in-out;
+}
+
+.globe-2 {
+    width: 350px;
+    height: 350px;
+    background: #283593;
+    bottom: -10%;
+    right: -10%;
+    animation: float 25s infinite ease-in-out reverse;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(30px, 30px);
+    }
+}
+
+/* Layout */
+.app-container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: var(--space-6);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-4) var(--space-6);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: var(--blur-md);
+    background: var(--glass-bg);
+    box-shadow: var(--shadow-lg);
+    position: sticky;
+    top: var(--space-4);
+    z-index: 10;
+}
+
+h1 {
+    font-family: var(--font-heading);
+    font-size: var(--text-xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+    /* Allow title to take available space */
+    text-align: center;
+}
+
+/* Logo Styles */
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+    transition: transform var(--transition-fast);
+    padding: var(--space-2);
+    border-radius: var(--radius-md);
+}
+
+.logo-link:hover {
+    transform: scale(1.1);
+    color: var(--accent-error);
+    /* YouTube Red hover effect */
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-img {
+    height: 80px;
+    /* Increased size */
+    width: 80px;
+    /* Force square for circle */
+    object-fit: cover;
+    /* Ensure image covers the circle without distortion */
+    border-radius: 50%;
+    /* Make it circular */
+    border: 2px solid var(--glass-border);
+    /* Subtle border */
+    display: block;
+}
+
+/* Language Selector */
+#language-selector {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    border: 1px solid var(--glass-border);
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition-base);
+    font-weight: 500;
+}
+
+#language-selector:hover,
+#language-selector:focus {
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-color: var(--accent-primary);
+}
+
+#language-selector option {
+    background: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+/* Content Grid */
+.content-grid {
+    display: grid;
+    gap: var(--space-6);
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+/* Sections (Accordion Style) */
+.analysis-section {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: var(--blur-md);
+    transition: all var(--transition-base);
+    overflow: hidden;
+    /* Important for accordion radius */
+    padding: 0;
+    /* Remove padding for edge-to-edge accordion button */
+}
+
+/* Accordion Section Header */
+.section-header-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-5);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.3s ease;
+}
+
+.section-header-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.section-header-left {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.section-category-icon {
+    color: var(--accent-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: var(--space-2);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--glass-border);
+    min-width: 40px;
+    /* Ensure minimum size */
+    min-height: 40px;
+}
+
+.section-category-icon svg {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    opacity: 1;
+}
+
+.section-titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title-es {
+    font-family: var(--font-heading);
+    font-size: var(--text-xl);
+    /* Increased from text-lg */
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.section-title-target {
+    font-size: var(--text-sm);
+    color: var(--accent-primary);
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.accordion-icon {
+    color: var(--text-muted);
+    transition: transform 0.3s ease;
+}
+
+.section-header-btn[aria-expanded="true"] .accordion-icon {
+    transform: rotate(180deg);
+}
+
+/* Accordion Body */
+.section-content {
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid var(--glass-border);
+    animation: slideDown 0.3s ease-out;
+}
+
+.section-body {
+    padding: var(--space-5);
+}
+
+/* Item Cards (Nested Accordions) */
+.items-list-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.item-accordion-card {
+    background: rgba(0, 0, 0, 0.2);
+    /* Darker background for contrast */
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: background 0.3s ease;
+}
+
+.item-accordion-card:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.item-header-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-3) var(--space-4);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s ease;
+}
+
+.item-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.term-es {
+    font-size: var(--text-base);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.term-target {
+    font-size: var(--text-sm);
+    color: var(--accent-primary);
+    font-style: italic;
+}
+
+/* Icons for Inner */
+.inner-icon {
+    font-size: 0.9em;
+    opacity: 0.6;
+    color: var(--text-muted);
+}
+
+.item-header-btn[aria-expanded="true"] .inner-icon {
+    transform: rotate(180deg);
+    color: var(--text-primary);
+}
+
+/* Inner Content */
+.item-content {
+    background: rgba(0, 0, 0, 0.2);
+    /* Darker inner content */
+    border-top: 1px solid var(--glass-border);
+    padding: var(--space-4);
+    animation: slideDown 0.2s ease-out;
+}
+
+/* Helper for hidden state in inner items */
+.item-content.hidden {
+    display: none;
+}
+
+.section-body .item-accordion-card:last-child {
+    margin-bottom: 0;
+}
+
+/* Keywords Chips */
+.keywords-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+.keyword-chip {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--accent-primary);
+    padding: var(--space-2) var(--space-3);
+    /* Increased padding */
+    border-radius: 9999px;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    border: 1px solid rgba(255, 214, 10, 0.3);
+    transition: all var(--transition-fast);
+    display: flex;
+    gap: var(--space-2);
+    align-items: center;
+}
+
+.keyword-chip .es-word {
+    font-weight: 600;
+    color: var(--text-primary);
+    /* White for Spanish */
+}
+
+.keyword-chip .target-word {
+    font-style: italic;
+    opacity: 1;
+    /* Increase opacity */
+    font-weight: 500;
+    color: var(--accent-primary);
+    /* Cyan for Target to distinguish from Container border */
+}
+
+.keyword-chip:hover {
+    background: var(--accent-primary);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 214, 10, 0.4);
+}
+
+.keyword-chip:hover .es-word,
+.keyword-chip:hover .target-word {
+    color: var(--bg-dark);
+}
+
+/* Bilingual Text Styles */
+.foreign-title-sub {
+    font-size: 0.8em;
+    font-style: italic;
+    opacity: 0.8;
+    display: block;
+    margin-top: var(--space-1);
+    font-weight: 400;
+    color: var(--accent-primary);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Estilo responsivo para header del acordeón (lado a lado en desktop) */
+@media (min-width: 640px) {
+    .header-content {
+        flex-direction: row;
+        align-items: baseline;
+        gap: var(--space-3);
+    }
+}
+
+.term-es {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.term-target {
+    font-style: italic;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--accent-primary);
+    /* Hint color */
+}
+
+/* Accordion expanded content bilingual */
+.content-block,
+.example-box {
+    margin-bottom: var(--space-4);
+}
+
+.definition-es {
+    color: var(--text-secondary);
+    margin-bottom: var(--space-1);
+}
+
+.definition-target {
+    font-style: italic;
+    opacity: 0.9;
+    font-size: 0.9em;
+    margin-left: var(--space-2);
+    color: var(--accent-primary);
+    /* Consistent yellow color */
+}
+
+.example-box {
+    padding-left: var(--space-3);
+    border-left: 2px solid var(--glass-border);
+}
+
+/* Footer Link Styles */
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--text-primary);
+    /* White/Light */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color var(--transition-fast);
+}
+
+.footer-link:hover {
+    color: var(--accent-error);
+    /* YouTube Red on hover */
+}
+
+.footer-icon {
+    color: inherit;
+    /* Inherit white from link, turns red on hover */
+}
+
+.example-es {
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+}
+
+.example-target {
+    font-style: italic;
+    color: var(--accent-primary);
+    /* Consistent yellow color */
+    opacity: 0.9;
+}
+
+/* Footer & Credits */
+.footer {
+    text-align: center;
+    padding: var(--space-4);
+    color: var(--text-muted);
+    font-size: var(--text-sm);
+    border-radius: var(--radius-lg);
+}
+
+/* States */
+.hidden {
+    display: none !important;
+}
+
+.loading-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-12);
+    color: var(--text-secondary);
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--glass-border);
+    border-top-color: var(--accent-secondary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: var(--space-4);
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.error-container {
+    background: rgba(255, 77, 77, 0.1);
+    border: 1px solid var(--accent-error);
+    border-radius: var(--radius-md);
+    padding: var(--space-6);
+    text-align: center;
+    color: #ffcccc;
+}
+
+.btn-primary {
+    margin-top: var(--space-4);
+    background: var(--accent-primary);
+    color: var(--bg-dark);
+    border: none;
+    padding: var(--space-2) var(--space-6);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 600;
+    transition: filter var(--transition-fast);
+}
+
+.btn-primary:hover {
+    filter: brightness(1.1);
+}
+
+/* Animations Util */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 500ms forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
